@@ -28,7 +28,7 @@ html {
     padding: 20px 40px;
     border-radius: 30px;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
 .featuredHeader {
