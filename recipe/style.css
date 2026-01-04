@@ -1,4 +1,55 @@
 html {
-    width: 80%;
+    width: 100%;
     margin: 2% auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titleHeader {
+    background-color: rgb(31, 31, 103);
+    border-radius: 30px;
+    padding: 10px;
+    color: rgb(226, 226, 226);
+    text-align: center;
+}
+
+.navLinks {
+    text-align: center;
+}
+
+.navLinks>a {
+    text-decoration: none;
+    padding: 10px 30px;
+    color: rgb(90, 90, 253);
+}
+
+.featured {
+    background-color: rgb(31, 31, 103);
+    margin: 10px 0px;
+    padding: 20px 40px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column
+}
+
+.featuredHeader {
+    text-align: center;
+    color: rgb(226, 226, 226);
+}
+
+.featuredItemContainer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.featuredItem {}
+
+.featuredItem>a {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+    text-align: center;
+}
+
+.featuredItem>img {
+    border-radius: 30px;
 }
