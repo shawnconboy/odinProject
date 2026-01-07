@@ -86,7 +86,7 @@ header {
 .sectionTwoImage {
     width: 100px;
     height: 100px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid black;
 }
 
@@ -101,4 +101,21 @@ header {
     align-items: center;
     flex-direction: column;
     padding: 20px 30%;
+}
+
+footer {
+    padding: 50px 5%;
+    background-color: white;
+}
+
+.footerMain {
+    color: black;
+}
+
+.footerRight>button {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3882F6;
+    color: #E5E7EB;
 }
